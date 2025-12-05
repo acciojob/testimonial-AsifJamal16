@@ -1,31 +1,25 @@
-.testimonials {
-    background: #f3f3f3;
+.main-container {
+    background-color: #f3f3f3;
     padding: 30px;
     width: 80%;
     margin: 20px auto;
 }
 
-.testimonials h2 {
-    font-size: 28px;
-    margin-bottom: 20px;
-}
-
-.testimonial-box {
-    background: #fff;
+.testimonial {
+    background-color: #ffffff;
     border: 1px solid #ddd;
     padding: 15px;
     margin-bottom: 15px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
 }
 
-.testimonial-box p {
-    width: 80%;
+.testimonial p {
+    margin: 0;
     font-size: 16px;
 }
 
-.author {
+.testimonial .author {
+    text-align: right;
     font-style: italic;
+    margin-top: 10px;
     color: #555;
 }
